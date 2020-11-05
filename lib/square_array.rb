@@ -1,7 +1,8 @@
 def square_array(array)
+  new_array = []
   array.length.times do |numbers|
     numbers=numbers**2
-    array << numbers
+    array= new_array.push
 end
 return array
 end
