@@ -1,5 +1,6 @@
 def square_array(array)
-  while array.length.times do
-  square_array = array * array
+  newArray=[]
+  array.each do |numbers|
+    numbers = numbers * numbers
 end
 end
